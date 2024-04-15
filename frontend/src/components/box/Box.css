@@ -1,0 +1,19 @@
+.box {
+    width: var(--box-width-400);
+    border: 1px solid var(--color-blue);
+    border-radius: var(--border-radius-5);
+}
+
+@media screen and (max-width:420px) {
+    .box {
+        width: var(--box-width-300);
+        height: var(--box-height-350);
+    }
+}
+
+@media screen and (max-width:320px) {
+    .box {
+        width: var(--box-width-260);
+        height: var(--box-height-350);
+    }
+}

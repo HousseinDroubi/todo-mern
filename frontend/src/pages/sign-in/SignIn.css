@@ -1,0 +1,17 @@
+.h-400 {
+    height: 400px;
+}
+
+.link {
+    color: var(--color-blue);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.link:visited {
+    color: var(--color-blue);
+}
+
+.text-align-end {
+    text-align: end;
+}

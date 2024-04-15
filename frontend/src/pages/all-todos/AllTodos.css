@@ -1,0 +1,6 @@
+.todos_container {
+    margin-top: 80px;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 10px;
+}
